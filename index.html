@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3JS - Weather Visualisation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header>
+        <h1>Weather Tracker</h1>
+    </header>
+    <div id="graph">
+        <div id="info">
+            <div id="keys">
+                <p>
+                    <span class="key-text">Temperature</span>
+                    <span class="key" id="temp-key"></span>
+                </p>
+                <p>
+                    <span class="key-text">Rainfall</span>
+                    <span class="key" id="rain-key"></span>
+                </p>
+            </div>
+            <div id="current-data">
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import D3-Javascript-->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- Import local Javascript-->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
